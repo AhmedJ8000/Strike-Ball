@@ -1,6 +1,7 @@
 //-------------------- CONSTANTS --------------------//
 const gameWidth = 800;
 const gameHeight = 600;
+const MAX_BALL_SPEED = 14;
 
 //Canvas load for game.html
 const canvas = document.querySelector("#gameCanvas");
@@ -175,7 +176,8 @@ if (ball.y - ball.radius < 0)
         else
         {
             //Deduct player's lives
-            lives--;    
+            lives--;
+            modifyBallSpeed(7); //Reset Ball's Speed    
         }
 
         //Reattach the ball to paddle only if its not game over
@@ -252,24 +254,15 @@ if (ball.y - ball.radius < 0)
         }
         scoreGame();
         hitCount++;
-        console.log(ballSpeed)
+            console.log(ballSpeed);
+
         //Counting every hit of the brick
         //Every 3 hits > increase ball speed by + 1
-        if (hitCount % 3 === 0)
+        if (hitCount % 3 === 0) 
         {
-        if (ballSpeed <= 14)
-        {
-        ballSpeed += 0;
+            ballSpeed = Math.min(ballSpeed + 1, MAX_BALL_SPEED);
+            modifyBallSpeed(ballSpeed);
         }
-        else
-        {
-        ballSpeed += 1;           //Increase the speed value
-        }
-        modifyBallSpeed(ballSpeed); //Apply new speed while keeping direction
-        console.log("Ball speed increased to:", ballSpeed);
-        }
-
-        
         console.log("Hit Count: " + hitCount);
         return false; //Removing the brick
     }
@@ -381,6 +374,7 @@ function updateLevel()
     paddle.y = gameHeight - paddle.height - 10;
 
     hitCount = 0; //Reset hits count
+    modifyBallSpeed(7); //Reset Ball Speed
 
     //Load level from levels.js
     loadLevel(levels[currentLevel - 1]);
