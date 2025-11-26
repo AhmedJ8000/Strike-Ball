@@ -8,7 +8,7 @@ const canvas = document.querySelector("#gameCanvas");
 const context = canvas ? canvas.getContext("2d") : null;
 const levelButtons = document.querySelectorAll('.level-btn');
 const savedLevel = localStorage.getItem("selectedLevel");
-const brickHit = new Audio('../assets/audio/brickHit.mp3');
+const brickHit = new Audio('../../assets/audio/brickHit.mp3');
 
 //Only run game logic if we are on game.html
 const isGamePage = window.location.pathname.includes("game.html");
