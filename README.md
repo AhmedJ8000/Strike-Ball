@@ -163,11 +163,13 @@ This project reinforced skills in problem-solving, debugging, and structuring Ja
 
 Potential upgrades include:
 - Sound effects & background music  
-- Power-ups (multi-ball, larger paddle, slow motion)  
-- Animated particle effects when bricks break  
-- Mobile touch controls  
+- Power-ups (multi-ball, expand paddle, slow ball)  
+- Animated particle effects when bricks break
+- Animating menus fade in-out using.  
+- Adjusting the in-Game HUD Elements designs and popup high score prompt
 - Additional levels and difficulty modes  
-- Themes or skins for the paddle and background  
+- Themes or skins for the paddle and background
+- Making the keyboard sensetivity functional  
 
 ## Acknowledgements
 
