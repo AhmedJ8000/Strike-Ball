@@ -56,11 +56,6 @@ Difficulty affects:
 
 This allows players of all skill levels to enjoy the game.
 
-### 🎚 Paddle Sensitivity Slider
-In the **Options** menu, players can adjust:
-- Paddle movement speed (sensitivity)
-- Stored automatically via localStorage
-
 This allows customization for comfort and accessibility.
 
 ### High Score System
@@ -169,7 +164,7 @@ Potential upgrades include:
 - Adjusting the in-Game HUD Elements designs and popup high score prompt
 - Additional levels and difficulty modes  
 - Themes or skins for the paddle and background
-- Making the keyboard sensetivity functional  
+- Making the Paddle Sensitivity Slider functional to save paddle speed data via localStorage
 
 ## Acknowledgements
 
