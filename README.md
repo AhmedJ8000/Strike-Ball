@@ -1,4 +1,4 @@
-![Strike Ball](img/strikeball_logo.png){width="100px"}
+![Strike Ball](<img src="img/gameScreenshot.png" width="200">)
 # Strike Ball  
 *A Breakout-Style Browser Game Built with HTML5 Canvas & JavaScript*
 
