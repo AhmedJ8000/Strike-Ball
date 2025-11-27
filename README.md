@@ -74,7 +74,6 @@ This allows customization for comfort and accessibility.
 
 ### ⎋ ESC-to-Quit Function
 Pressing **ESC** during gameplay immediately:
-- Pauses the game
 - Returns to title screen
 
 
@@ -130,9 +129,6 @@ Data persists even after closing the browser.
 Break all bricks while preventing the ball from falling off the screen.  
 Score points based on the number of bricks destroyed.
 
-### Game Link Access
-[Strike Ball](https://ahmedj8000.github.io/Strike-Ball)
-
 ## Challenges & Learning Outcomes
 
 While developing Strike Ball, the following challenges were solved:
@@ -176,3 +172,6 @@ Potential upgrades include:
 ## Acknowledgements
 
 Strike Ball was built entirely from scratch to demonstrate full front-end development capability.
+
+### Game Link Access
+[Strike Ball](https://ahmedj8000.github.io/Strike-Ball)
