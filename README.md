@@ -141,6 +141,9 @@ Tracking:
 
 All handled smoothly via JS functions.
 
+### ✔ Paddle Speed (Sensitivity)  
+You can adjust your paddle movement speed using a slider in the **Options** menu.
+
 ### ✔ localStorage syncing  
 Ensuring consistent saving/loading across multiple pages.
 
@@ -164,7 +167,6 @@ Potential upgrades include:
 - Adjusting the in-Game HUD Elements designs and popup high score prompt
 - Additional levels and difficulty modes  
 - Themes or skins for the paddle and background
-- Making the Paddle Sensitivity Slider functional to save paddle speed data via localStorage
 - Adding lock level feature to ensure the player starts from level 1
 - Redering unique colors of bricks for each level
 
