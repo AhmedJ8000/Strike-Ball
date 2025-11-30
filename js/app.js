@@ -14,7 +14,7 @@ const savedLevel = localStorage.getItem("selectedLevel");
 const isGamePage = window.location.pathname.includes("game.html");
 
 //-------------------- VARIABLES --------------------//
-let paddleSpeed = 1000; //Paddle's value is set to 1000 for smoother control
+let paddleSpeed = localStorage.getItem("setPaddleSpeed") || 1000; //Get the paddle sensetivity set to paddle speed in settings
 let ballSpeed;
 let ballAttached = true;   //Ball starts attached to paddle
 let paddleDirection = 0; //-1 = left, 1 = right, 0 = stop
